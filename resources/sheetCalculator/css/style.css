@@ -50,6 +50,7 @@ h1 {
     font-weight: 300;
     letter-spacing: -1px;
     margin-bottom: 1.5rem;
+    white-space: nowrap;
 }
 
 h2 {
@@ -88,12 +89,44 @@ p.lead {
     margin-bottom: 2rem;
 }
 
+p.slogen {
+    color: yellow;
+    margin: 0;
+}
+
+[data-i18n] {
+    visibility: hidden;
+}
+
+.nav-tabs .nav-link {
+    white-space: nowrap;
+    min-width: 150px;
+}
 .text-primary {
     color: #e38cb7 !important;
 }
 
 .light-font {
     font-weight: 300;
+}
+
+.d-block {
+    margin-bottom: 15px;
+}
+.store-badge {
+    box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
+}
+.appstore-badge img {
+    width:158px;
+}
+.googleplay-badge img {
+    width:185px;
+}
+.navbar {
+    padding: .5rem 0rem;
+}
+.img-logo {
+    height: 2.5rem;
 }
 
 .btn {
@@ -141,6 +174,7 @@ p.lead {
     margin: 0.5rem;
     padding: 0.7rem 1.6rem;
     line-height: 1.8;
+    width: 180px;
 }
 
 .btn-group-lg>.btn,
@@ -168,7 +202,7 @@ p.lead {
 
 @media (max-width:767px) {
     h1 {
-        font-size: 40px;
+        font-size: 38px;
     }
     h2 {
         font-size: 30px;
@@ -637,6 +671,6 @@ header {
 @media (max-width:991px) {
     .social-icons {
         text-align: center;
-        margin-top: 2rem;
+        /*margin-top: 2rem;*/
     }
 }
